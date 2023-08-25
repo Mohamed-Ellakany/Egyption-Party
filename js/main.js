@@ -61,10 +61,10 @@ let countdownInterval = setInterval(function () {
     let seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
   
-    $("#seconds").text(seconds) ;
-    $("#minutes").text(minutes) ;
-    $("#hours").text(hours) ;
-    $("#days").text(days) ;
+    $("#seconds").text(seconds + ' sec') ;
+    $("#minutes").text(minutes + ' min') ;
+    $("#hours").text(hours + ' hour') ;
+    $("#days").text(days + ' day') ;
    
   }, 1000);
 
