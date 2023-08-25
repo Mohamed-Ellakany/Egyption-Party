@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>ُEgyption Party</title>
+  </head>
+  <body>
+    <header class="position-relative" id="home">
+      <div
+        class="overlay position-absolute top-0 end-0 start-0 bottom-0 h-100 w-100"
+      >
+        <div class="menu-left bg-black text-white position-fixed">
+          <div>
+            <a
+              class="fa-solid fa-close fa-1x position-absolute text-white"
+             
+            ></a>
+            <div class="menu d-flex flex-column gap-5 mt-5">
+              <a class="text-white" href="#home">Home</a>
+              <a class="text-white" href="#singers">Duration</a>
+              <a class="text-white" href="#counter"> Details</a>
+              <a class="text-white" href="#form">Contact</a>
+            </div>
+            <span
+             id="openBtn" class=" position-absolute top-50 translate-middle-y d-flex align-items-baseline"
+              ><i class="fa-solid fa-bars fa-1x"></i>
+              <p >OPEN</p>
+            </span>
+          </div>
+        </div>
+        <div class="head z-2">
+          <div
+            class="position-absolute top-50 start-50 translate-middle text-center"
+          >
+            <h1 class="head-title text-white">ُEgyption Party</h1>
+            <p class="text-white">Let's have Fun</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="singers" id="singers">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-8 offset-2 text-center">
+            <div class="singer w-100">
+              <span class="py-2 d-block singer-block">singer one</span>
+              <p class="bg-light mb-0  ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                quos ex consectetur ipsum velit. Fuga dolores alias omnis
+                reprehenderit minima ipsum optio nemo. Iure, temporibus enim!
+                Veritatis voluptatum esse praesentium vero sit libero recusandae
+                odio, est, inventore iusto alias quasi fuga adipisci
+                exercitationem aperiam sequi, ipsam vitae deserunt. Expedita,
+                esse?
+              </p>
+            </div>
+            <div class="singer w-100">
+              <span class="py-2 d-block singer-block">singer two</span>
+              <p class="bg-light mb-0 ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                quos ex consectetur ipsum velit. Fuga dolores alias omnis
+                reprehenderit minima ipsum optio nemo. Iure, temporibus enim!
+                Veritatis voluptatum esse praesentium vero sit libero recusandae
+                odio, est, inventore iusto alias quasi fuga adipisci
+                exercitationem aperiam sequi, ipsam vitae deserunt. Expedita,
+                esse?
+              </p>
+            </div>
+            <div class="singer w-100">
+              <span class="py-2 d-block singer-block">singer three</span>
+              <p class="bg-light mb-0 ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                quos ex consectetur ipsum velit. Fuga dolores alias omnis
+                reprehenderit minima ipsum optio nemo. Iure, temporibus enim!
+                Veritatis voluptatum esse praesentium vero sit libero recusandae
+                odio, est, inventore iusto alias quasi fuga adipisci
+                exercitationem aperiam sequi, ipsam vitae deserunt. Expedita,
+                esse?
+              </p>
+            </div>
+            <div class="singer w-100">
+              <span class="py-2 d-block singer-block">singer four</span>
+              <p class="bg-light mb-0 ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                quos ex consectetur ipsum velit. Fuga dolores alias omnis
+                reprehenderit minima ipsum optio nemo. Iure, temporibus enim!
+                Veritatis voluptatum esse praesentium vero sit libero recusandae
+                odio, est, inventore iusto alias quasi fuga adipisci
+                exercitationem aperiam sequi, ipsam vitae deserunt. Expedita,
+                esse?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="counter position-relative" id="counter">
+      <div
+        class="overlay position-absolute h-100 top-0 end-0 start-0 bottom-0 z-1"
+      ></div>
+      <div class="container w-75">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 my-2 d-flex z-2 position-relative">
+            <div
+              class="border-2 border text-center text-white border-white w-100"
+            >
+              <p class="mb-0" id="days"></p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 my-2 d-flex z-2 position-relative">
+            <div
+              class="border-2 border text-center text-white border-white w-100"
+            >
+              <p class="mb-0" id="hours"></p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 my-2 d-flex z-2 position-relative">
+            <div
+              class="border-2 border text-center text-white border-white w-100"
+            >
+              <p class="mb-0" id="minutes"></p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 my-2 d-flex z-2 position-relative">
+            <div
+              class="border-2 border text-center text-white border-white w-100"
+            >
+              <p class="mb-0" id="seconds"></p>
+            </div>
+          </div>
+          <div class="col-12" id="complete"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form" id="form">
+      <div class="container w-75 py-5">
+        <div class="row">
+          <div class="col-12 fs-1 fw-bold">Join Us</div>
+          <div class="col-12 text-center py-3 fw-lighter">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          </div>
+          <div class="col-md-6 py-3">
+            <div class="fs-5 fw-bolder">CONTACT INFO</div>
+            <p class="text-center py-3 fw-medium text-secondary mb-3">
+              Why you should hire me writeup Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+            </p>
+            <p class="text-center py-3 fw-medium mb-3 text-secondary">
+              <i class="fa-solid fa-location-dot me-3"></i> New Street 22545,
+              Nexa Road, New York City, USA
+            </p>
+            <p class="text-center py-3 fw-medium mb-3 text-danger">
+              <i class="fa-solid fa-envelope me-3 text-secondary"></i>
+              hello@uigrid.com
+            </p>
+            <p class="text-center py-3 fw-medium mb-3 text-secondary">
+              <i class="fa-solid fa-phone me-3 text-secondary"></i
+              >001-000-000-000
+            </p>
+
+            <div class="icons-social row">
+              <div class="social col-2">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="social col-2">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="social col-2">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="social col-2">
+                <i class="fa-brands fa-dribbble"></i>
+              </div>
+              <div class="social col-2">
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 py-3">
+            <div>
+              <input
+                type="text"
+                placeholder="Enter Name"
+                class="mb-3 form-control rounded-0"
+              />
+              <input
+                type="text"
+                placeholder="Enter Email"
+                class="mb-3 form-control rounded-0"
+              />
+              <textarea
+                maxlength="100"
+                type="text"
+                placeholder="user name"
+                class="form-control rounded-0 mb-3"
+                rows="5"
+              ></textarea>
+              <p><span class="text-danger">100</span> character Reamining</p>
+              <div class="btn-lg btn btn-danger rounded-0">Send Massege</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/code.jquery.com_jquery-3.7.0.min.js"> </script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

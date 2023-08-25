@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI";
+}
+header {
+  background-image: url(../imgs/events-heavenly-header.jpg);
+  height: 660px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+a {
+  text-decoration: none;
+}
+.overlay {
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.head-title {
+  font-size: 60px;
+}
+
+.menu-left {
+  transition: all 0.5s;
+  left: -260px;  /*0*/
+  width:260px; 
+  height: 100vh;
+  padding-top: 60px; 
+  padding-left: 40px; 
+  z-index: 5555;
+}
+.fa-close {
+  right: 25px;
+  top: 50px;
+}
+.menu-left a {
+  transition: color 0.3s;
+}
+.menu-left {
+  font-size: 25px;
+}
+.menu-left span {
+ right: -100px;
+}
+.menu-left a:hover {
+  color: rgba(214, 46, 51, 0.6) !important;
+}
+.head span {
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 10px; /*270*/
+}
+
+.singer {
+  background-color: #e68285;
+}
+
+.counter {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(../imgs/invitation-2508607__340.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.border-white {
+  padding: 50px;
+  font-size: 30px;
+}
+
+.social {
+  border: 1px solid #bbb;
+  color: #bbb;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;height: 50px;
+  width: 50px ;
+  transition: all .3s;
+}
+.social:hover{
+
+  background-color: rgb(248, 34, 34);
+  border: none;
+  color: #fff;
+}
+textarea{
+  resize: none;
+}
+#openBtn{
+  cursor: pointer;
+  /* text-shadow: 2px 2px #eee; */
+  /* color: #bbb; */
+}
+.singer-block{
+  cursor: pointer;
+}
+.singer-block + p{
+  display: none;
+  transition:  all .5s ease-in-out;
+}
